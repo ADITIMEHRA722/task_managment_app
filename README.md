@@ -1,16 +1,18 @@
 # task_managment_app
 
-A new Flutter project.
+This is a simple Task Management App built with Flutter. It allows users to:
 
-## Getting Started
+Add, edit, delete, and view tasks.
+Mark tasks as "Completed" or "Pending."
+Apply filters (All, Completed, Pending) and search tasks by name.
+Supports dark mode/light mode toggle.
+Uses Hive for preferences and SQLite for storing tasks.
 
-This project is a starting point for a Flutter application.
+to Running the App
 
-A few resources to get you started if this is your first Flutter project:
+1.Clone the Repository:
+2.Navigate to the project directory - cd task-management-app
+3.Run the following command to install all the Flutter dependencies - flutter pub get
+4.Run the app - flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
